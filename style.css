@@ -1,0 +1,1232 @@
+#netlixLogo {
+    width: 65%;
+    margin-left: 37%;
+    position: relative;
+    bottom: 14%;
+    height: 134px;
+    top: -3%;
+    filter: contrast(2);
+}
+
+
+#first_row {
+    height: 850px;
+
+}
+
+#first_row::before {
+    content: '';
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    background-image: url('https://images.ctfassets.net/4cd45et68cgf/4VSxeY3b51YAvrDqnruDPr/9c88e632654f934f9df1da1b561be033/India_-_2022_blog.jpeg?w=2000');
+    z-index: 0;
+    filter: brightness(0.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-select {
+    width: 30%;
+    display: inline-block;
+    height: 37px;
+    padding: 0.375rem 1.85rem 0.375rem 1.75rem;
+    background-color: #101010;
+    color: white;
+    background-image: url('https://imagedelivery.net/5MYSbk45M80qAwecrlKzdQ/c81c6ae9-184c-47de-2e0d-b5ba59b01000/public');
+    margin-left: 11%;
+}
+
+
+#form-Group {
+    position: relative;
+    top: 29px;
+    gap: 3px;
+    height: 37px;
+
+}
+
+#sign-in {
+    position: relative;
+    left: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1216px) {
+    .form-select {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    #netlixLogo {
+        width: 190px;
+        margin-left: 77%;
+        position: relative;
+        bottom: 0%;
+    }
+
+    .form-select {
+        margin-left: -36%;
+        padding-left: 0.4rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .form-select {
+        margin-left: 30%;
+        padding-left: 0.4rem;
+        width: 23%;
+    }
+
+    #netlixLogo {
+        margin-left: 33%;
+    }
+
+    #form-Group {
+        top: 77px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #netlixLogo {
+        margin-left: 24%;
+    }
+
+    #form-Group {
+        left: -23px;
+    }
+
+}
+
+@media screen and (max-width:409px) {
+    #netlixLogo {
+        margin-left: 21%;
+    }
+
+    #form-Group {
+        right: 35px;
+    }
+
+    .form-select {
+        width: 31%;
+    }
+}
+
+@media screen and (max-width:273px) {
+    #netlixLogo {
+        margin-left: 4%;
+    }
+
+    #form-Group {
+        top: 83px;
+    }
+
+    #sign-in {
+        position: absolute;
+        left: 44%;
+        top: 118%;
+    }
+
+    .form-select {
+        width: 60%;
+        padding-left: 2.4rem;
+    }
+}
+
+@media screen and (max-width:200px) {
+    #netlixLogo {
+        top: 0;
+        width: 135px;
+        height: 87px;
+    }
+}
+
+/* InnerTextOne  */
+
+#innerTextOne {
+    width: 100%;
+    position: absolute;
+    top: 270px;
+}
+
+#innerTextOne h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+#innerTextTwo {
+    width: 100%;
+    position: absolute;
+    top: 340px;
+}
+
+#innerTextThree {
+    position: absolute;
+    top: 370px;
+}
+
+#input_col {
+    width: 322px;
+}
+
+#exampleInputEmail1 {
+    width: 100%;
+    padding: 0.9rem 0.75rem;
+    background-color: #111212;
+}
+
+#btn_col {
+    bottom: 413px;
+    right: 10px;
+}
+
+.commonTop {
+    position: relative;
+    bottom: 437px;
+}
+
+#started_btn {
+    height: 54px;
+    background-color: #e50914;
+    width: 148px;
+}
+
+#innerTextThree h4 {
+    font-size: 1.2rem;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+#email_row {
+    padding-left: 11%;
+}
+
+#first_section_img {
+    width: 65%;
+    position: relative;
+    z-index: 3;
+}
+
+#main_section {
+    position: relative;
+    bottom: 78px;
+    border-top: 9px solid;
+    padding-top: 4%;
+    padding-left: 3%;
+    /* padding-bottom: 4%; */
+}
+
+#main_heading {
+    margin-top: 16%;
+}
+
+#first_section_video {
+    position: relative;
+    bottom: 46%;
+    width: 43%;
+    left: 21%;
+    /* z-index: 2; */
+}
+
+#heading_col_two{
+    padding-right: 5%;
+}
+
+#heading_col_four{
+    padding-right: 5%;
+}
+
+#heading_col h4{
+    font-size: 19px;
+    margin-top: 7% !important;
+}
+#heading_col_two h4{
+    font-size: 19px;
+    margin-top: 7% !important;
+}
+#heading_col_three h4{
+    font-size: 19px;
+    margin-top: 7% !important;
+}
+#heading_col_four h4{
+    font-size: 19px;
+    margin-top: 7% !important;
+}
+
+/* main section heading column  */
+
+/* media query for innerTextOne & innerTextTwo */
+
+@media screen and (max-width:942px) {
+    #second_select{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:894px) {
+
+    #main_heading {
+        margin-top: 16%;
+        font-size: 2rem !important;
+        padding-bottom: 4%;
+    }
+
+    #heading_col h4 {
+        font-size: 1.1rem;
+        margin-top: 6%;
+    }
+    #heading_col_two h4 {
+        font-size: 1.1rem;
+        margin-top: 6%;
+    }
+    #heading_col_three h4 {
+        font-size: 1.1rem;
+        margin-top: 6%;
+    }
+    #heading_col_four h4 {
+        font-size: 1.1rem;
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width:891px) {
+    #innerTextOne h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:808px) {
+    #email_row {
+        padding-left: 6%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    #main_heading {
+        margin-top: 0;
+    }
+
+    #main_heading_three {
+        margin-top: 0 !important;
+    }
+
+    #main_heading_four {
+        margin-top: 0 !important;
+    }
+
+    #main_section {
+        text-align: center;
+    }
+
+    #main_section_three {
+        text-align: center;
+    }
+
+    #main_section_four {
+        text-align: center;
+    }
+
+    #first_section_img {
+        padding: 7% 13% 3% 5% !important;
+    }
+
+    #third_section_img {
+        padding: 7% 13% 3% 5% !important;
+        width: 92% !important;
+    }
+}
+
+#fourth_section_img {
+    padding: 7% 13% 3% 5% !important;
+    width: 92% !important;
+
+}
+
+#main_heading_two {
+    margin-top: 0 !important;
+}
+
+#main_section_two {
+    padding-bottom: 10% !important;
+    text-align: center;
+}
+
+#main_section_four {
+    padding-bottom: 10% !important;
+    text-align: center;
+}
+
+#second_section_img {
+    padding: 7% 13% 3% 5% !important;
+}
+
+@media screen and (max-width:645px) {
+    #innerTextThree h4 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:601px) {
+    #innerTextOne h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:590px) {
+    #netIndia {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
+
+@media screen and (max-width:575px) {
+    #started_btn {
+        height: 38px;
+        position: absolute;
+    }
+
+    #email_row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #input_col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #btn_col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #exampleInputEmail1 {
+        width: 65%;
+        height: 35px;
+    }
+
+    #first_row::before {
+        height: 590px;
+    }
+
+    #main_section {
+        bottom: 343px;
+        text-align: center;
+    }
+
+    #main_section_two {
+        bottom: 343px !important;
+    }
+
+    #main_section_three {
+        bottom: 343px !important;
+    }
+
+    #main_section_four {
+        bottom: 343px !important;
+    }
+
+    #main_section_fifth {
+        bottom: 343px !important;
+    }
+
+    #footer-section {
+        bottom: 343px !important;
+    }
+}
+
+@media screen and (max-width:540px) {
+    #exampleInputEmail1 {
+        width: 36%;
+        text-align: center;
+    }
+
+    #input_col {
+        width: 100%;
+    }
+
+    #btn_col {
+        right: 0;
+    }
+
+    #form-Group {
+        top: 136px;
+    }
+}
+
+@media screen and (max-width:547px) {
+    #innerTextOne h1 {
+        font-size: 1.4rem;
+    }
+
+    #innerTextTwo h4 {
+        font-size: 1rem;
+    }
+
+    #innerTextThree h4 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:431px) {
+
+    #netlixLogo {
+        margin-left: 27%;
+    }
+
+    #exampleInputEmail1 {
+        width: 33%;
+    }
+
+    #input_col {
+        width: 100%;
+    }
+
+    #btn_col {
+        right: 0;
+    }
+}
+
+@media screen and (max-width:412px) {
+    #first_section_img {
+        padding: 7% 19% 3% 5% !important;
+    }
+
+    #second_section_img {
+        padding: 7% 19% 3% 5% !important;
+    }
+
+    #third_section_img {
+        padding: 7% 19% 3% 5% !important;
+    }
+
+    #fourth_section_img {
+        padding: 7% 19% 3% 5% !important;
+    }
+}
+
+@media screen and (max-width:374px) {
+    #exampleInput {
+        width: 144px;
+        height: 31px;
+        font-size: 12px;
+    }
+    
+    #second_btn {
+        width: 104px !important;
+        height: 31px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:280px) {
+    #netlixLogo {
+        margin-left: 14%;
+    }
+
+    #first_section_img {
+        padding: 7% 26% 3% 5% !important;
+    }
+
+    #four_section_img {
+        padding: 7% 26% 3% 5% !important;
+    }
+
+    #main_heading {
+        font-size: 1.4rem !important;
+    }
+
+    #main_heading_four {
+        font-size: 1.4rem !important;
+    }
+
+    #heading_col h4 {
+        font-size: 0.6rem;
+    }
+
+    #heading_col_four h4 {
+        font-size: 0.6rem;
+    }
+
+    #second_section_img {
+        padding: 7% 26% 3% 5% !important;
+    }
+
+    #fourth_section_img {
+        padding: 7% 26% 3% 5% !important;
+    }
+
+    #main_heading_two {
+        font-size: 1.4rem !important;
+    }
+
+    #heading_col_two h4 {
+        font-size: 0.6rem;
+    }
+
+    #third_section_img {
+        padding: 7% 26% 3% 5% !important;
+    }
+
+    #main_heading_three {
+        font-size: 1.4rem !important;
+    }
+
+    #heading_col_three h4 {
+        font-size: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width:270px) {
+    #first_section_img {
+        padding: 7% 13% 3% 12% !important;
+        margin-left: 0 !important;
+    }
+
+    #fourth_section_img {
+        padding: 7% 13% 3% 12% !important;
+        margin-left: 0 !important;
+    }
+
+    #heading_col h4 {
+        font-size: 0.6rem;
+    }
+
+    #heading_col_four h4 {
+        font-size: 0.6rem;
+    }
+
+    #main_heading {
+        font-size: 1.2rem !important;
+    }
+
+    #main_heading_four {
+        font-size: 1.2rem !important;
+    }
+
+    #second_section_img {
+        padding: 7% 13% 3% 12% !important;
+        margin-left: 0 !important;
+    }
+
+    #heading_col_two h4 {
+        font-size: 0.6rem;
+    }
+
+    #heading_col_four h4 {
+        font-size: 0.6rem;
+    }
+
+    #main_heading_two {
+        font-size: 1.2rem !important;
+    }
+
+    #third_section_img {
+        padding: 7% 13% 3% 12% !important;
+        margin-left: 0 !important;
+    }
+
+    #heading_col_three h4 {
+        font-size: 0.6rem;
+    }
+
+    #main_heading_three {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* first main section ends here  */
+
+
+/* second main section starts here  */
+
+#main_section_two {
+    position: relative;
+    bottom: 78px;
+    border-top: 9px solid;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-bottom: 4%;
+}
+
+#second_section_img {
+    width: 65%;
+}
+
+#main_heading_two {
+    margin-top: 16%;
+}
+
+#extraContent {
+    display: flex;
+    width: 304px;
+    height: 79px;
+    border: 1px solid #888383;
+    border-radius: 12px;
+    padding: 1% 1.2% 1.2% 1.2%;
+    gap: 13%;
+    position: relative;
+    bottom: 28%;
+    left: 28%;
+    background: black;
+}
+
+#extraHeading {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    width: 58%;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+#extraContent img {
+    width: 40%;
+    height: 100%;
+
+}
+
+#gif {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    width: 146px;
+    height: 53px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 18%;
+    left: 5%;
+}
+
+#download {
+    font-weight: 100;
+    color: blue;
+
+}
+
+/* third section starts here  */
+
+#main_section_three {
+    position: relative;
+    bottom: 78px;
+    border-top: 9px solid;
+    padding-top: 4%;
+    padding-left: 3%;
+    /* padding-bottom: 4%; */
+}
+
+#third_section_img {
+    width: 65%;
+    position: relative;
+    z-index: 5;
+}
+
+#main_heading_three {
+    margin-top: 16%;
+}
+
+#third_section_video {
+    position: relative;
+    bottom: 53%;
+    width: 36%;
+    left: 24%;
+}
+
+
+
+/* fourth section starts here  */
+
+#main_section_four {
+    position: relative;
+    bottom: 78px;
+    border-top: 9px solid;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-bottom: 4%;
+}
+
+#fourth_section_img {
+    width: 65%;
+}
+
+#main_heading_four {
+    margin-top: 16%;
+}
+
+/* fifth section starts here  */
+
+#main_section_fifth {
+    position: relative;
+    bottom: 78px;
+    border-top: 9px solid;
+    padding: 5% 13% 10% 13%;
+}
+
+.myAcco {
+    margin-top: 4%;
+}
+
+.accordion-flush .accordion-item {
+    margin-top: 0.7%;
+}
+
+.accordion-button {
+    background-color: #2d2d2d !important;
+    color: white !important;
+}
+
+.accordion-body {
+    background-color: #2d2d2d !important;
+    color: white !important;
+}
+
+.accordion-button::after {
+    filter: invert();
+}
+
+/* second email section  */
+
+#second_btn {
+    background-color: #e50914;
+    width: 150px;
+    height: 58px;
+}
+
+#exampleInput {
+    width: 315px;
+    padding: 0.9rem 0.75rem;
+    background-color: #111212;
+    height: 60px;
+}
+
+.email-btn-box {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.secondEmail {
+    margin-top: 4%;
+}
+
+#footer-section {
+    position: relative;
+    bottom: 78px;
+    border-top: 9px solid;
+    padding: 4% 12% 1% 12%;
+    gap: 13px;
+}
+
+#footer-section a {
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+#second_select {
+    margin: 0 !important;
+    width: 12% !important;
+}
+
+#netIndia {
+    color: rgba(255, 255, 255, 0.7) !important;
+
+}
+
+/* media queries for video tags  */
+
+@media screen and (max-width:1368px) {
+
+    #first_section_video {
+        width: 43%;
+        left: 22%;
+    }
+}
+
+@media screen and (max-width:1248px) {
+    #first_section_video {
+        left: 23%;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+
+    #first_section_video {
+        left: 26%;
+        bottom: 44%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1009px) {
+
+    #first_section_video {
+        left: 28%;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 913px) {
+
+    #first_section_video {
+        left: 30%;
+        bottom: 43%;
+        width: 39%;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    #first_section_video {
+        left: 33%;
+        bottom: 41%;
+        width: 38%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    #first_section_video {
+        left: -1%;
+        bottom: 49%;
+        width: 54%;
+    }
+
+    #first_section_img {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    #first_section_video {
+        left: 0%;
+        bottom: 48%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    #first_section_video {
+        left: 2%;
+        bottom: 49%;
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 447px) {
+    #first_section_video {
+        left: 4%;
+        width: 55%;
+    }
+}
+
+/* extra content media query */
+
+@media screen and (max-width:1360px) {
+    #extraContent {
+        width: 282px;
+        height: 58px;
+        bottom: 27%;
+        left: 27%;
+        gap: 17%;
+    }
+
+    #gif {
+        height: 31px;
+    }
+}
+
+@media screen and (max-width: 1123px) {
+    #extraContent {
+        width: 252px;
+        height: 56px;
+        bottom: 29%;
+        left: 26%;
+    }
+
+    #gif {
+        width: 137px;
+        height: 42px;
+        top: 0%;
+        left: 5%;
+    }
+
+    #extraHeading {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    #extraContent {
+        width: 222px;
+        height: 42px;
+        bottom: 27%;
+        left: 26%;
+    }
+
+    #gif {
+        height: 31px;
+    }
+
+    #extraHeading {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    #extraContent {
+        width: 192px;
+        height: 46px;
+        bottom: 28%;
+        left: 29%;
+    }
+
+    #gif {
+        height: 29px;
+        top: 10%;
+    }
+}
+
+
+
+@media screen and (max-width: 769px) {
+
+    #extraContent {
+        width: 349px;
+        height: 105px;
+        bottom: 28%;
+        left: 25%;
+    }
+
+    #gif {
+        top: 19%;
+        left: 5%;
+        height: 47px;
+    }
+
+    #extraHeading {
+        font-size: 16px;
+    }
+
+    #second_section_img {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    #extraContent {
+        left: 23%;
+    }
+
+    #gif {
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 629px) {
+    #extraContent {
+        left: 19%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #extraContent {
+        width: 316px;
+        height: 74px;
+        bottom: 26%;
+        left: 22%;
+    }
+
+    #extraHeading {
+        font-size: 14px;
+    }
+
+    #gif {
+        top: 11%;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    #extraContent {
+        width: 63%;
+        height: 64px;
+        bottom: 26%;
+        left: 22%;
+    }
+
+    #extraHeading {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #extraContent {
+        width: 59%;
+        height: 44px;
+        bottom: 29%;
+        left: 24%;
+    }
+
+    #extraHeading {
+        font-size: 6px;
+    }
+
+    #gif {
+        height: 28px;
+
+    }
+}
+
+/* third section image and video media query */
+
+@media screen and (max-width: 1354px) {
+    #third_section_video {
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    #third_section_video {
+        bottom: 52%;
+        width: 35%;
+        left: 27%
+    }
+}
+
+@media screen and (max-width: 1143px) {
+    #third_section_video {
+        left: 28%;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+
+    #third_section_video {
+        left: 30%;
+        bottom: 51%;
+        width: 34%;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    #third_section_video {
+        left: 32%;
+        bottom: 51%;
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    #third_section_video {
+        left: 34%;
+        bottom: 49%;
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 804px) {
+    #third_section_video {
+        left: 36%;
+        bottom: 48%;
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    #third_section_video {
+        left: -1%;
+        bottom: 56%;
+        width: 46%;
+    }
+}
+
+@media screen and (max-width:658px) {
+    .email-btn-box {
+        gap: 25px;
+    }
+
+    #exampleInput {
+        width: 209px;
+        height: 40px;
+    }
+
+    #second_btn {
+        width: 125px;
+        height: 40px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 611px) {
+    #third_section_video {
+        left: 1%;
+    }
+}
+
+@media screen and (max-width:504px) {
+    .secondEmail h4{
+        font-size: 15px;
+    }
+
+    .secondEmail{
+        margin-top: 13%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    #third_section_video {
+        left: 2%;
+    }
+}
+
+@media screen and (max-width:447px) {
+    .hideCol {
+        display: none;
+    }
+
+    .col-3{
+        width: 50% !important;
+    }
+
+    #footer-section{
+        font-size: 11px;
+        bottom: 296px !important;
+        padding-top: 16%;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    #third_section_video {
+        left: 3%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #third_section_video {
+        left: 4%;
+        bottom: 55%;
+        width: 41%;
+    }
+}
